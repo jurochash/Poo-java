@@ -1,0 +1,24 @@
+package poo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class Funcionario {
+    private String nome;
+    private String sobrenome;
+    private String alergias;
+    private String problemasMedicos;
+    private String telefone;
+    private String email;
+
+    public Funcionario(String nome, String sobrenome, String alergias, String problemasMedicos, String telefone, String email) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.alergias = alergias;
+        this.problemasMedicos = problemasMedicos;
+        this.telefone = telefone;
+        this.email = email;
+    }
+
+    // Getters para acessar as informações do funcionário
+}

@@ -1,0 +1,36 @@
+package poo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class SistemaCartao {
+    private Map<Integer, Funcionario> funcionarios;
+
+    public SistemaCartao() {
+        funcionarios = new HashMap<>();
+    }
+
+    public void adicionarFuncionario(int identificador, Funcionario funcionario) {
+        funcionarios.put(identificador, funcionario);
+    }
+
+    public Funcionario obterFuncionario(int identificador) {
+        return funcionarios.get(identificador);
+    }
+
+    // Método para gerar cartão com informações do funcionário
+    public void gerarCartao(int identificador) {
+        Funcionario funcionario = funcionarios.get(identificador);
+        if (funcionario != null) {
+            System.out.println("Cartão do Funcionário:");
+            System.out.println("Nome: " + funcionario.getNome());
+            System.out.println("Sobrenome: " + funcionario.getSobrenome());
+            System.out.println("Alergias: " + funcionario.getAlergias());
+            System.out.println("Problemas Médicos: " + funcionario.getProblemasMedicos());
+            System.out.println("Telefone: " + funcionario.getTelefone());
+            System.out.println("E-mail: " + funcionario.getEmail());
+        } else {
+            System.out.println("Funcionário não encontrado.");
+        }
+    }
+}

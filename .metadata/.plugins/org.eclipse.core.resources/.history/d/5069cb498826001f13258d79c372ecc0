@@ -1,0 +1,77 @@
+package projeto;
+
+
+	import java.util.HashMap;
+	import java.util.Map;
+
+	@SuppressWarnings("unused")
+	class Funcionario {
+	    private String nome;
+	    private String sobrenome;
+	    private String alergias;
+	    private String problemasMedicos;
+	    private String telefone;
+	    private String email;
+
+	    public Funcionario(String nome, String sobrenome, String alergias, String problemasMedicos, String telefone, String email) {
+	        this.setNome(nome);
+	        this.setSobrenome(sobrenome);
+	        this.setAlergias(alergias);
+	        this.setProblemasMedicos(problemasMedicos);
+	        this.setTelefone(telefone);
+	        this.setEmail(email);
+	    }
+
+		private void setEmail(String email2) {
+			
+		}
+
+		private void setTelefone(String telefone2) {
+			
+		}
+
+		private void setProblemasMedicos(String problemasMedicos2) {
+			
+		}
+
+		private void setAlergias(String alergias2) {
+			
+		}
+
+		private void setSobrenome(String sobrenome2) {
+			
+		}
+
+		private void setNome(String nome2) {
+			
+		}
+
+		public String getNome() {
+			return nome;
+		}
+		
+
+		public String getSobrenome() {;
+		return sobrenome;
+		}
+
+		public String getAlergias() {
+			;
+			return alergias;
+		}
+
+		public String getTelefone() {
+			return telefone;
+		}
+
+		public String getEmail() {
+			return email;
+		}
+
+		public String getProblemasMedicos() {
+			return problemasMedicos;
+		}
+
+	}
+
+

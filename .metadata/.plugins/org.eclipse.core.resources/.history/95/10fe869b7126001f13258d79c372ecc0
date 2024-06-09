@@ -1,0 +1,18 @@
+package poo;
+
+public class Empregado {
+	private String nome;
+	private int idade;
+	private String posição;
+	
+	public Empregado (String nome, int idade, String posição) {
+		this.nome=nome;
+		this.idade=idade;
+		this.posição=posição;
+	}
+@Override
+public String toString() {
+	return "Nome: " + nome +", Idade:" + idade + ", Posição: " + posição;
+}
+
+}

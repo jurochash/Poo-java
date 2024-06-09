@@ -1,0 +1,19 @@
+package projeto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		        SistemaCartao sistema = new SistemaCartao();
+
+		        // Exemplo de adição de funcionários
+		        Funcionario func1 = new Funcionario("João", "Silva", "Nenhuma", "Nenhum", "123456789", "joao@example.com");
+		        Funcionario func2 = new Funcionario("Maria", "Santos", "Poeira", "Nenhum", "987654321", "maria@example.com");
+
+		        sistema.adicionarFuncionario(1, func1);
+		        sistema.adicionarFuncionario(2, func2);
+
+		        // Exemplo de geração de cartão
+		        sistema.gerarCartao(1);
+		    }
+		}
+

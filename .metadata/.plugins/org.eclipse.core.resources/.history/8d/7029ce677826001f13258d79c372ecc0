@@ -1,0 +1,56 @@
+package poo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@SuppressWarnings("unused")
+class Funcionario {
+    private String nome;
+    private String sobrenome;
+    private String alergias;
+    private String problemasMedicos;
+    private String telefone;
+    private String email;
+
+    public Funcionario(String nome, String sobrenome, String alergias, String problemasMedicos, String telefone, String email) {
+        this.setNome(nome);
+        this.setSobrenome(sobrenome);
+        this.setAlergias(alergias);
+        this.setProblemasMedicos(problemasMedicos);
+        this.telefone = telefone;
+        this.email = email;
+    }
+
+	public String getNome() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getSobrenome() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getAlergias() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getTelefone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getProblemasMedicos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+    // Getters para acessar as informações do funcionário
+}
+

@@ -1,0 +1,28 @@
+package poo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeManager {
+    private List<Employee> employees;
+
+    public EmployeeManager() {
+        this.employees = new ArrayList<>();
+    }
+
+    public void addEmployee(String name, int age, String position) {
+        Employee employee = new Employee(name, age, position);
+        employees.add(employee);
+    }
+
+    public void listEmployees() {
+        if (employees.isEmpty()) {
+            System.out.println("No employees found.");
+        } else {
+            for (Employee employee : employees) {
+                System.out.println(employee);
+            }
+        }
+    }
+}
+
